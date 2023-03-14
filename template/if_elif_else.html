@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if_elif_else</title>
+</head>
+<body>
+    <center>
+        <h1>if_elif_else</h1>
+        {% if a > b %}
+            <h1>inside if condition</h1>
+            <h1>a:{{a}} is big</h1>
+        {% elif b > c %} 
+             <h1>inside elif block</h1>
+             <h1>b:{{b}} is big</h1>
+        {% else %}
+             <h1>inside else block</h1>
+             <h1>c:{{c}} is big</h1>
+        {% endif %}
+    </center>
+</body>
+</html>
